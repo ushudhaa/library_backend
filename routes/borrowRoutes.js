@@ -1,6 +1,6 @@
 import { Router } from "express";
 import Book from "../models/book.js";
-import Borrow from "../models/Borrow.js";
+import Borrow from "../models/borrow.js";
 import { verifyToken } from "../middleware/auth.js";
 
 const router = Router();
